@@ -1,0 +1,8 @@
+﻿  flipbookAnim.cpp
+c:\users\mytino\documents\github\cse163_a3\src\flipbookanim.cpp(16): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+c:\users\mytino\documents\github\cse163_a3\src\flipbookanim.cpp(38): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+c:\users\mytino\documents\github\cse163_a3\src\flipbookanim.cpp(60): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+c:\users\mytino\documents\github\cse163_a3\src\flipbookanim.cpp(104): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+c:\users\mytino\documents\github\cse163_a3\src\flipbookanim.cpp(105): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+c:\users\mytino\documents\github\cse163_a3\src\flipbookanim.cpp(106): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  CSE163_A3.vcxproj -> C:\Users\Mytino\Documents\GitHub\CSE163_A3\x64\Debug\CSE163_A3.exe

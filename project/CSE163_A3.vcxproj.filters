@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\cam.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\camController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\envMap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\flipbookAnim.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\image.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mesh.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\shaderMethods.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\skybox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\window.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\prerenderUtils.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\glUtils.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\flipbookParticle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\cam.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\camController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\envMap.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\flipbookAnim.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\image.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mesh.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\shaderMethods.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\skybox.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\window.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\prerenderUtils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\glUtils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\flipbookParticle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="project">
+      <UniqueIdentifier>{2315d26c-85c1-4706-bfad-8568ff0b60b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{67352a00-35dd-4455-af1b-f008ab95830c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{0c8efd52-f4c4-448a-a034-4b94898a8a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{64e90957-25b2-4232-a2ce-16f22c458bff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <Filter>project</Filter>
+    </None>
+    <None Include="..\shaders\skybox.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\skybox.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\flipbook.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\flipbook.vert">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

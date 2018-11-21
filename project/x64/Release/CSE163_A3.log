@@ -1,0 +1,29 @@
+﻿  cam.cpp
+  camController.cpp
+..\src\camController.cpp(60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  envMap.cpp
+  flipbookAnim.cpp
+..\src\flipbookAnim.cpp(16): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+..\src\flipbookAnim.cpp(38): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+..\src\flipbookAnim.cpp(60): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+..\src\flipbookAnim.cpp(104): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+..\src\flipbookAnim.cpp(105): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+..\src\flipbookAnim.cpp(106): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  flipbookParticle.cpp
+  glUtils.cpp
+  image.cpp
+  main.cpp
+  mesh.cpp
+..\src\mesh.cpp(26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\src\mesh.cpp(84): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  prerenderUtils.cpp
+  scene.cpp
+..\src\scene.cpp(84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+..\src\scene.cpp(87): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  shaderMethods.cpp
+  skybox.cpp
+  window.cpp
+  Generating code
+  All 698 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CSE163_A3.vcxproj -> C:\Users\Mytino\Documents\GitHub\CSE163_A3\x64\Release\CSE163_A3.exe

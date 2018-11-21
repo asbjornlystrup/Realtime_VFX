@@ -1,0 +1,30 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h1 {
+    text-align: center;
+}
+
+.page-header {
+    background-color: #97a1fa;
+    background-image: none;
+}
+
+figure {
+    margin: 20px;
+    text-align: center;
+}
+
+figure img {
+    vertical-align: top;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+.no-interpolation {
+    image-rendering: pixelated;
+}

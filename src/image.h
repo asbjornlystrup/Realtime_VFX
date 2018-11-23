@@ -12,5 +12,5 @@ public:
 	void save(std::string filePath);
 
 private:
-	SDL_Surface *m_surface;
+	FIBITMAP *m_surface;
 };

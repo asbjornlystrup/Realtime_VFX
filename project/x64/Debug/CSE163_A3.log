@@ -1,8 +1,35 @@
-﻿  flipbookAnim.cpp
-c:\users\mytino\documents\github\cse163_a3\src\flipbookanim.cpp(16): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-c:\users\mytino\documents\github\cse163_a3\src\flipbookanim.cpp(38): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-c:\users\mytino\documents\github\cse163_a3\src\flipbookanim.cpp(60): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-c:\users\mytino\documents\github\cse163_a3\src\flipbookanim.cpp(104): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-c:\users\mytino\documents\github\cse163_a3\src\flipbookanim.cpp(105): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-c:\users\mytino\documents\github\cse163_a3\src\flipbookanim.cpp(106): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-  CSE163_A3.vcxproj -> C:\Users\Mytino\Documents\GitHub\CSE163_A3\x64\Debug\CSE163_A3.exe
+﻿  cam.cpp
+  camController.cpp
+d:\documents\github\realtime_vfx\src\camcontroller.cpp(60): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=double
+          ]
+  envMap.cpp
+  flipbookAnim.cpp
+d:\documents\github\realtime_vfx\src\flipbookanim.cpp(16): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+d:\documents\github\realtime_vfx\src\flipbookanim.cpp(38): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+d:\documents\github\realtime_vfx\src\flipbookanim.cpp(60): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+d:\documents\github\realtime_vfx\src\flipbookanim.cpp(104): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+d:\documents\github\realtime_vfx\src\flipbookanim.cpp(105): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+d:\documents\github\realtime_vfx\src\flipbookanim.cpp(106): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  flipbookParticle.cpp
+  glUtils.cpp
+  image.cpp
+  main.cpp
+  mesh.cpp
+d:\documents\github\realtime_vfx\src\mesh.cpp(26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\documents\github\realtime_vfx\src\mesh.cpp(84): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  prerenderUtils.cpp
+  scene.cpp
+d:\documents\github\realtime_vfx\src\scene.cpp(84): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+d:\documents\github\realtime_vfx\src\scene.cpp(87): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  shaderMethods.cpp
+  skybox.cpp
+  window.cpp
+  Generating Code...
+  CSE163_A3.vcxproj -> D:\Documents\GitHub\Realtime_VFX\project\CSE163_A3_debug.exe

@@ -21,7 +21,7 @@ FlipbookAnim::FlipbookAnim(std::string directory, int keyframeCount) {
 		glBindTexture(GL_TEXTURE_2D, m_normalMapTexIDs[i]);
 
 			glTexImage2D(GL_TEXTURE_2D, 0, 4, image->getSize().x, 
-					image->getSize().y, 0, GL_RGBA, GL_UNSIGNED_BYTE, image->getPixelData());
+					image->getSize().y, 0, GL_BGRA, GL_UNSIGNED_BYTE, image->getPixelData());
 
 			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
@@ -43,7 +43,7 @@ FlipbookAnim::FlipbookAnim(std::string directory, int keyframeCount) {
 		glBindTexture(GL_TEXTURE_2D, m_diffuseAlphaMapTexIDs[i]);
 
 			glTexImage2D(GL_TEXTURE_2D, 0, 4, image->getSize().x,
-					image->getSize().y, 0, GL_RGBA, GL_UNSIGNED_BYTE, image->getPixelData());
+					image->getSize().y, 0, GL_BGRA, GL_UNSIGNED_BYTE, image->getPixelData());
 
 			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
@@ -67,7 +67,7 @@ FlipbookAnim::FlipbookAnim(std::string directory, int keyframeCount) {
 		glBindTexture(GL_TEXTURE_2D, m_opticalFlowMapTexIDs[i]);
 
 		glTexImage2D(GL_TEXTURE_2D, 0, 4, image->getSize().x,
-			image->getSize().y, 0, GL_RGBA, GL_UNSIGNED_BYTE, image->getPixelData());
+			image->getSize().y, 0, GL_BGRA, GL_UNSIGNED_BYTE, image->getPixelData());
 
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);

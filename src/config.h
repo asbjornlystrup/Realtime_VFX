@@ -10,7 +10,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <SDL.h>
-#include <SDL_image.h>
+#include <FreeImage.h>
 
 #include "glUtils.h"

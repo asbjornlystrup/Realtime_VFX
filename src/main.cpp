@@ -5,13 +5,9 @@
 #undef main
 
 int main(void) {
-	int imgFlags = IMG_INIT_PNG;
-	if (!(IMG_Init(imgFlags) & imgFlags)) {
-		std::string error = "SDL_image could not initialize! SDL_image error: ";
-		error += IMG_GetError();
-		throw std::exception(error.c_str());
-	}
+	FreeImage_Initialise();
 
+	// Prerendering requires raw 3ds Max images in the graphics directory
 	bool prerender = false;
 
 	if (prerender) {
@@ -24,6 +20,8 @@ int main(void) {
 	window->mainLoop();
 
 	delete window;
+
+	FreeImage_DeInitialise();
 
 	exit(EXIT_SUCCESS);
 }

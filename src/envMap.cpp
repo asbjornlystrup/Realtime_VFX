@@ -12,7 +12,7 @@ EnvMap::EnvMap(std::string directory) {
 		assert(image->getPixelData() != nullptr);
 
 		glTexImage2D(GL_TEXTURE_CUBE_MAP_POSITIVE_X + i, 0, 3, image->getSize().x,
-				image->getSize().y, 0, GL_RGB, GL_UNSIGNED_BYTE, image->getPixelData());
+				image->getSize().y, 0, GL_BGR, GL_UNSIGNED_BYTE, image->getPixelData());
 
 		delete image;
 	}

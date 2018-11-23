@@ -59,7 +59,7 @@
       <AdditionalIncludeDirectories>..\libraries\FreeImage\x64\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>D:\Documents\GitHub\Realtime_VFX\libraries\FreeImage\x64\FreeImage.lib;glu32.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\libraries\FreeImage\x64\FreeImage.lib;glu32.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>

@@ -1,4 +1,4 @@
-CFLAGS=-std=c++11 -O2 -lm -lGL -lGLU -lglfw -lGLEW -lfreeimage
+CFLAGS=-std=c++11 -O2 -Wall -Wno-sign-compare -Wno-unused-result -lm -lGL -lGLU -lglfw -lGLEW -lfreeimage
 CC=g++
 
 OBJ=$(patsubst %.cpp,%.o,$(wildcard *.cpp))

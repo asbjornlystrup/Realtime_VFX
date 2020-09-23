@@ -1,11 +1,11 @@
-#include "FlipbookParticle.h"
+#include "flipbookParticle.h"
 
 FlipbookParticle::FlipbookParticle(FlipbookAnim* flipbookAnim, glm::vec3 pos, glm::vec2 size, EnvMap *envMap, int startKeyframe) {
 	m_flipbookAnim = flipbookAnim;
 	m_pos = pos;
 	m_size = size;
 	m_envMap = envMap;
-	
+
 	m_currKeyframe = startKeyframe;
 	m_keyframeCount = flipbookAnim->getKeyframeCount();
 

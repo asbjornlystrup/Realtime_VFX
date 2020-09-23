@@ -10,7 +10,7 @@ Window::Window() {
 
 	// Initialize GLFW
 	if (!glfwInit()) {
-		throw std::exception("Failed to initialize GLFW.\n");
+		throw std::runtime_error("Failed to initialize GLFW.\n");
 	}
 
 	// 4x antialiasing
@@ -23,7 +23,7 @@ Window::Window() {
 
 	// Check if the window could not be created
 	if (!m_glfwWindow) {
-		throw std::exception("Failed to open GLFW window.\n"
+		throw std::runtime_error("Failed to open GLFW window.\n"
 				"Either GLFW is not installed or your graphics card does not support modern OpenGL.\n");
 	}
 
@@ -99,7 +99,7 @@ void Window::tick() {
 
 	if (!m_keyHeld[GLFW_KEY_2]) {
 		std::vector<FlipbookParticle*> flipbookParticles = m_scene->getFlipbookParticles();
-		
+
 		for (int i = 0; i < flipbookParticles.size(); i++) {
 			flipbookParticles[i]->tick();
 		}
@@ -184,7 +184,7 @@ void Window::resizeCallback(GLFWwindow *glfwWindow, int newWidth, int newHeight)
 
 void Window::errorCallback(int error, const char *description) {
 	// Print error
-	throw std::exception(description);
+	throw std::runtime_error(description);
 }
 
 void Window::setupCallbacks() {

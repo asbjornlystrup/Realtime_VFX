@@ -24,4 +24,8 @@ Install dependencies:
     $ sudo apt-get install -y libfreeimage3 libfreeimage-dev libglfw3 libglfw3-dev glew-utils mesa-commmon-dev freeglut3 libglu1-mesa
 ```
 
-Then build with make.
+Then build in the source directory:
+
+```
+    $ cd src && make
+```

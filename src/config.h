@@ -11,5 +11,7 @@
 #include <string>
 #include <vector>
 #include <FreeImage.h>
+#include <exception>
+#include <stdexcept>
 
 #include "glUtils.h"
